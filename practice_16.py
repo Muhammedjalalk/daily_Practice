@@ -28,3 +28,28 @@ if not found:
 
     
         
+# students=[
+#         {"id":1,"name":"Jalal","age":22,"department":"cs", "mark":85},
+#           {"id":2,"name":"Rahul","age":21,"department":"Bca", "mark":90},
+#             {"id":3,"name":"Arun","age":23,"department":"cs", "mark":75},
+
+# ]
+# for data in students:
+#      if data["mark"]>80:
+#           print(data['name'],data["mark"])
+
+
+
+print(hash(10))
+print(hash("jalal"))
+print(hash((1,2,3,4)))
+
+student={
+     "jalal","Rahul","Arun"
+}
+print('jalal' in student)
+
+
+a=10
+print(type(a))
+print(isinstance(a,float))
