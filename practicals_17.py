@@ -64,3 +64,25 @@ print(longest_word("Python is powerfull programming language"))
 
 
 
+def capitalize(s):
+    return s.title()
+
+print(capitalize("hello world python"))
+
+
+def reverse_word(s):
+    words=s.split()
+    reverse=""
+    for word in words:
+        reverse=word+reverse
+    return reverse
+print(reverse_word("python is a programming language"))
+
+def reverse_word(s):
+    words=s.split()
+    words.reverse()
+    reverse=" ".join(words)
+    return reverse
+   
+print(reverse_word("this python program"))
+
